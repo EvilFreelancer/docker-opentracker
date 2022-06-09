@@ -7,6 +7,7 @@ Simple dockerized BitTorrent [OpenTracker](https://erdgeist.org/arts/software/op
 ```shell
 git clone https://github.com/EvilFreelancer/docker-opentracker.git
 cd docker-opentracker
+cp docker-compose.dist.yml docker-compose.yml 
 docker-compose build
 docker-compose up -d
 ```
