@@ -1,6 +1,7 @@
 FROM alpine:3.16
 
 EXPOSE 6969
+EXPOSE 6969/udp
 
 WORKDIR /app
 RUN set -xe \

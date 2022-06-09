@@ -6,3 +6,4 @@ services:
       context: .
     ports:
       - "6969:6969"
+      - "6969:6969/udp"
