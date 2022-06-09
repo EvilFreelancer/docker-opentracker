@@ -14,4 +14,6 @@ docker-compose up -d
 
 Your tracker will be available on http://localhost:6969
 
+Announce address: http://localhost:6969/announce
+
 Stats can be found here: http://localhost:6969/stats
